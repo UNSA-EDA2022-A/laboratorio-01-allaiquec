@@ -32,7 +32,6 @@ public class Exercise2 {
 					//OKEY
 				}else 
 					return -1;
-				
 			}
 		}
 		
