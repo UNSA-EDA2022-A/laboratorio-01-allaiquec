@@ -22,7 +22,32 @@ public class Exercise2 {
 
 	public Integer getMenorNumeroSaltos(int a []) {
 
-		// TO DO
-		return -1;
+		int numSaltos = 0,puntos = 0;
+		
+		for(int i = a.length-1; i >= 0; i--) {
+			if(i == 0) {
+				
+			}else {
+				if(a[i]-a[i-1] <= 50) {
+					//OKEY
+				}else 
+					return -1;
+				
+			}
+		}
+		
+		for(int i = 0; i<a.length; i++) {
+			if(puntos + 50 >= a[i] ) {
+				if(i==6) {
+					numSaltos++;
+					puntos = a[i];
+				}
+			}else {
+				numSaltos++;
+				puntos = a[i-1];
+				i--;
+			}
+		}
+		return numSaltos;
 	}
 }
