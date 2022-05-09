@@ -17,7 +17,7 @@ public class Exercise1 {
 	public String convertirBaseGabriel(int a) {
 
 		int longNum = Integer.toString(a).length();
-		//Arreglo con los dígitos del número
+		//Arreglo con los digitos del número
 		int arreglo[] = new int[longNum];
 		
 		//Relleno el arreglo con los digitos pero correspondientes a sus posiciones
@@ -107,5 +107,4 @@ public class Exercise1 {
 		return -1;
 	}
 	
-}
 }
