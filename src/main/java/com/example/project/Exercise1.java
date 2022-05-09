@@ -64,7 +64,6 @@ public class Exercise1 {
 				}
 			}else {
 				//SI TODO SALE BIEN
-				//SI TODO SALE BIEN----------
 				//Convertir la base Gabriel a decimal
 				int suma = 0;
 				for (int i = 0; i < arreglo.length; i++) { 
